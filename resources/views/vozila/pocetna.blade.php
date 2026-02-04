@@ -6,7 +6,7 @@
     </div>
 
     <div class="flex justify-between items-center mb-6">
-        <p>Dobro došli na deployanu aplikaciju još jednom i sad zadnji i zadnja promjena</p>
+        <p>Dobro došli na deployanu aplikaciju još jednom i sad zadnji i zadnja promjena još jedna</p>
     </div>
     <div class="text-sm text-gray-500">
         Environment: {{ app()->environment() }} |

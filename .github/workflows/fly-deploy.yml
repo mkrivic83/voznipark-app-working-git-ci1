@@ -20,7 +20,7 @@ jobs:
         uses: superfly/flyctl-actions/setup-flyctl@v1
 
       - name: Deploy
-        run: flyctl deploy --remote-only -app voznipark-app-working-git-ci11
+        run: flyctl deploy --remote-only --app voznipark-app-working-git-ci11
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
           FLY_APP: ${{ secrets.FLY_APP_NAME }}

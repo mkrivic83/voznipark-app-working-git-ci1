@@ -5,6 +5,14 @@
         <h1 class="text-2xl font-bold">Početna</h1>
     </div>
 
+    <div class="flex justify-between items-center mb-6">
+        <p>Dobro došli na deployanu aplikaciju</p>
+    </div>
+    <div class="text-sm text-gray-500">
+        Environment: {{ app()->environment() }} |
+        DB: {{ config('database.connections.mysql.database') }}
+    </div>   
+
    
 </div>
 @include('layouts.footer')

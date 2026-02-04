@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for voznipark-app-working-git-ci1 on 2026-02-04T13:57:59+01:00
+# fly.toml app configuration file generated for voznipark-app-working-git-ci11 on 2026-02-04T17:33:48+01:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'voznipark-app-working-git-ci1'
+app = 'voznipark-app-working-git-ci11'
 primary_region = 'fra'
 console_command = 'php /var/www/html/artisan tinker'
 
